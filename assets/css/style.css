@@ -1,4 +1,60 @@
 @charset "UTF-8";
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+}
+.timeline11 {
+  position: relative;
+  padding-left: 40px;
+  margin-left: 20px;
+  border-left: 3px solid #fcd2b4;
+}
+.timeline11 .event {
+  position: relative;
+  margin-bottom: 40px;
+}
+.timeline11 .event .circle {
+  position: absolute;
+  left: -51px; /* Adjusted to ensure the line goes through the center */
+  top: 0;
+  background-color: #f78c42;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  z-index: 1; /* Ensures the dot is on top of the line */
+}
+.timeline11 .event .title {
+  font-weight: bold;
+  color: #1b1b7e;
+}
+.timeline11 .event .icon {
+  color: green;
+  margin-right: 5px;
+}
+.timeline11 .event p {
+  margin: 0;
+}
+
+.card {
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  opacity: 0.9;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 5px 0 0;
+  color: black;
+}
 
 .clear {
   clear: both; }
@@ -94,6 +150,7 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
+  font-family: 'Poppins', sans-serif;
   background: #fff;
   font-weight: normal;
   font-size: 15px;
@@ -384,8 +441,8 @@ i.flaticon-left {
 .section-titleV1 {
   position: relative;
   max-width: 700px;
-  margin: 25px auto;
-  padding: 25px 0px;
+  margin: 20px auto;
+  padding: 20px 0px;
   text-align: center; }
 
 .about-us-section{
@@ -2892,7 +2949,7 @@ margin-bottom: 35px;
   padding: 60px 0px 120px;
  }
  .testimonials-area{
-  margin-top: 20px;
+  margin-top: 5px;
   position: relative;
   padding: 60px 0px 120px;
   background-color: #ffffff;
